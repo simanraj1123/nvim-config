@@ -21,6 +21,7 @@ local plugins = {
     require("plugins/lsp"),
     require("plugins/none-ls"),
     require("plugins/autocomplete"),
+    require("plugins/toggleterm"),
 }
 local opts = {}
 
