@@ -12,3 +12,7 @@ vim.opt.shiftwidth = 4
 -- Character case handling
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+-- Splitting directions
+vim.opt.splitright = true
+vim.opt.splitbelow = true
