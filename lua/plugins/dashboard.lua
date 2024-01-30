@@ -47,13 +47,13 @@ return {
                             desc = "Config folder",
                             icon = "- ",
                             key = "c",
-                            action = ":Neotree dir=~/.config/nvim/lua/configs",
+                            action = ":e ~/.config/nvim/lua/configs",
                         },
                         {
                             desc = "Plugins folder",
                             icon = "- ",
                             key = "p",
-                            action = ":Neotree dir=~/.config/nvim/lua/plugins",
+                            action = ":e ~/.config/nvim/lua/plugins",
                         },
                         {
                             desc = "Mason",
