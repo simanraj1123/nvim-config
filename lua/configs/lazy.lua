@@ -22,6 +22,7 @@ local plugins = {
     require("plugins/none-ls"),
     require("plugins/autocomplete"),
     require("plugins/toggleterm"),
+    require("plugins/gitsigns"),
 }
 local opts = {}
 
