@@ -8,8 +8,5 @@ return {
             "MunifTanjim/nui.nvim",
             -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
         },
-        config = function()
-            vim.keymap.set("n", "<leader>t", ":Neotree<cr>", { silent = true, noremap = true })
-        end,
     },
 }
