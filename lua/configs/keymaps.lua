@@ -43,4 +43,6 @@ wk.register({
         l = {toggle_lazygit, "Lazygit"},
     },
 
+    d = {"<cmd>Dashboard<cr>", "Dashboard"},
+
 }, { prefix = "<leader>" })
