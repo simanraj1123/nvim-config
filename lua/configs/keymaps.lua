@@ -45,4 +45,12 @@ wk.register({
 
     d = {"<cmd>Dashboard<cr>", "Dashboard"},
 
+    g = {
+        name = "Git",
+        s = {"<cmd>Git status<cr>", "Status"},
+        p = {"<cmd>Git pull<cr>", "Pull"},
+        P = {"<cmd>Git push<cr>", "Push"},
+        c = {"<cmd>Git commit<cr>", "Commit"},
+    },
+
 }, { prefix = "<leader>" })
