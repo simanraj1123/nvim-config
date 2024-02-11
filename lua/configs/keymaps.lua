@@ -51,6 +51,15 @@ wk.register({
         p = {"<cmd>Git pull<cr>", "Pull"},
         P = {"<cmd>Git push<cr>", "Push"},
         c = {"<cmd>Git commit<cr>", "Commit"},
+        a = {"<cmd>Git add .<cr>", "Add all"},
+        l = {toggle_lazygit, "Lazygit"},
+    },
+
+    q = {
+        name = "Quit",
+        q = {":q <cr>", "Just quit"},
+        y = {":wq <cr>", "Save"},
+        n = {":q! <cr>", "Don't save"},
     },
 
 }, { prefix = "<leader>" })
