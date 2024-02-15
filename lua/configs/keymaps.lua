@@ -31,6 +31,7 @@ wk.register({
         name = "Buffer",
 		b = { "<cmd>Telescope buffers<cr>", "List buffers" },
 		d = { ":bd<cr>", "Delete Buffer" },
+		D = { ":bd!<cr>", "Delete Buffer without save" },
 		n = { ":bn<cr>", "Next Buffer" },
 		p = { ":bp<cr>", "Previous Buffer" },
     },
