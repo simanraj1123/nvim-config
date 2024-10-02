@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
     require("themes/catppuccin"),
+    -- require("themes/onehalf"),
     -- require("themes/onedark"),
     require("plugins/lualine"),
     require("plugins/neotree"),
