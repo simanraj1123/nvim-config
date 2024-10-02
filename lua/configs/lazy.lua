@@ -25,7 +25,7 @@ local plugins = {
     require("plugins/autocomplete"),
     require("plugins/toggleterm"),
     require("plugins/git"),
-    require("plugins/dashboard"),
+--    require("plugins/dashboard"),
 }
 local opts = {}
 
