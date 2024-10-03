@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
     require("themes/catppuccin"),
+    require("themes/tokyonight"),
     -- require("themes/onehalf"),
     -- require("themes/onedark"),
     require("plugins/lualine"),
@@ -25,6 +26,7 @@ local plugins = {
     require("plugins/autocomplete"),
     require("plugins/toggleterm"),
     require("plugins/git"),
+    require("plugins/mini-icons")
 --    require("plugins/dashboard"),
 }
 local opts = {}

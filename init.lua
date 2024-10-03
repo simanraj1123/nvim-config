@@ -4,4 +4,5 @@ require('configs/keymaps')
 require('configs/autocmds')
 
 vim.opt.termguicolors = true
-vim.cmd.colorscheme 'catppuccin-mocha'
+vim.cmd.colorscheme 'tokyonight-day'
+
