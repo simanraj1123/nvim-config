@@ -24,6 +24,7 @@ wk.register({
 		f = { "<cmd>Telescope find_files<cr>", "Find files" },
 		g = { "<cmd>Telescope live_grep<cr>", "Live grep" },
 		h = { "<cmd>Telescope help_tags<cr>", "Help tags" },
+		t = { "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", "Help tags" },
 		s = { ":w<cr>", "Save file" },
 	},
 
