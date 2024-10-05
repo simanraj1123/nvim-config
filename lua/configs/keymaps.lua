@@ -75,7 +75,6 @@ wk.add  {
   { "<leader>bd", ":bd<cr>", desc = "Delete Buffer" },
   { "<leader>bn", ":bn<cr>", desc = "Next Buffer" },
   { "<leader>bp", ":bp<cr>", desc = "Previous Buffer" },
-  { "<leader>d", "<cmd>Dashboard<cr>", desc = "Dashboard" },
   { "<leader>f", group = "File" },
   { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find files" },
   { "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live grep" },
